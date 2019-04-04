@@ -6,14 +6,12 @@ header img, header nav {
 nav img {
   width: 200px;
   height: 70px;
-  margin: 10px;
-  vertical-align: middle;
   background-color: black;
 }
 
 header nav li {
   display: inline;
-  margin: 35px;
+  padding: 0 80px;
 }
 
 header nav div {
@@ -22,7 +20,7 @@ header nav div {
 
 header nav li a {
   vertical-align: middle;
-  font-size: 1.00em;
+  font-size: 1em;
   text-decoration: none;
   color: white;
 }
@@ -30,7 +28,19 @@ header nav li a {
 nav, footer {
   background-color: rgb(61, 56, 56);
   padding: 10px;
-
   color: white;
   width: 100%;
+}
+
+main div img:only-of-type {
+  display: block;
+  margin: 25px auto;
+}
+
+main div:nth-child(2){
+  text-align: center;
+}
+
+main div:nth-child(2) img {
+  margin: 0px 13px;
 }
